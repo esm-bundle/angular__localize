@@ -8,19 +8,65 @@
 
 A repo that tests automatic detection of upstream publishes and the publishing of `@esm-bundle` versions of them.
 
-Upstream repo at https://github.com/joeldenning/autopublish-template.
+## Latest Version
 
-## JS Delivr
+### @angular/localize
 
-https://cdn.jsdelivr.net/npm/@esm-bundle/autopublish-template/esm/index.js
+#### ES2015
 
-https://cdn.jsdelivr.net/npm/@esm-bundle/autopublish-template/system/index.js
+https://cdn.jsdelivr.net/npm/@esm-bundle/angular__localize/system/es2015/ivy/angular-localize.js
 
-## Unpkg
+https://cdn.jsdelivr.net/npm/@esm-bundle/angular__localize/system/es2015/ivy/angular-localize.min.js
 
-https://unpkg.com/@esm-bundle/autopublish-template/esm/index.js
+https://unpkg.com/@esm-bundle/angular__localize/system/es2015/ivy/angular-localize.js
 
-https://unpkg.com/@esm-bundle/autopublish-template/system/index.js
+https://unpkg.com/@esm-bundle/angular__localize/system/es2015/ivy/angular-localize.min.js
+
+#### ES2020
+
+https://cdn.jsdelivr.net/npm/@esm-bundle/angular__localize/system/es2020/ivy/angular-localize.js
+
+https://cdn.jsdelivr.net/npm/@esm-bundle/angular__localize/system/es2020/ivy/angular-localize.min.js
+
+https://unpkg.com/@esm-bundle/angular__localize/system/es2020/ivy/angular-localize.js
+
+https://unpkg.com/@esm-bundle/angular__localize/system/es2020/ivy/angular-localize.min.js
+
+### @angular/localize/init
+
+#### ES2015
+
+https://cdn.jsdelivr.net/npm/@esm-bundle/angular__localize/system/es2015/ivy/angular-init.js
+
+https://cdn.jsdelivr.net/npm/@esm-bundle/angular__localize/system/es2015/ivy/angular-init.min.js
+
+https://unpkg.com/@esm-bundle/angular__localize/system/es2015/ivy/angular-init.js
+
+https://unpkg.com/@esm-bundle/angular__localize/system/es2015/ivy/angular-init.min.js
+
+#### ES2020
+
+https://cdn.jsdelivr.net/npm/@esm-bundle/angular__localize/system/es2020/ivy/angular-init.js
+
+https://cdn.jsdelivr.net/npm/@esm-bundle/angular__localize/system/es2020/ivy/angular-init.min.js
+
+https://unpkg.com/@esm-bundle/angular__localize/system/es2020/ivy/angular-init.js
+
+https://unpkg.com/@esm-bundle/angular__localize/system/es2020/ivy/angular-init.min.js
+
+## Specific Version
+
+https://cdn.jsdelivr.net/npm/@esm-bundle/angular__localize@13.3.1/system/es2015/ivy/angular-localize.js
+
+https://cdn.jsdelivr.net/npm/@esm-bundle/angular__localize@13.3.1/system/es2015/ivy/angular-localize.min.js
+
+https://unpkg.com/@esm-bundle/angular__localize@13.3.1/system/es2015/ivy/angular-localize.js
+
+https://unpkg.com/@esm-bundle/angular__localize@13.3.1/system/es2015/ivy/angular-localize.min.js
+
+## Need a build that doesn't exist yet?
+
+If you need an es5 build, non-ivy build, or a build for a different version of Angular, please open a Github issue.
 
 ## Npm
 
