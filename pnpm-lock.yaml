@@ -1,10 +1,10 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@angular/compiler': 13.3.1
-  '@angular/compiler-cli': 13.3.1
-  '@angular/core': 13.3.1
-  '@angular/localize': 13.3.1
+  '@angular/compiler': 13.3.2
+  '@angular/compiler-cli': 13.3.2
+  '@angular/core': 13.3.2
+  '@angular/localize': 13.3.2
   '@rollup/plugin-babel': 5.3.1
   concurrently: 7.1.0
   husky: 7.0.4
@@ -23,10 +23,10 @@ specifiers:
   typescript: 4.6.3
 
 devDependencies:
-  '@angular/compiler': 13.3.1
-  '@angular/compiler-cli': 13.3.1_1f55b3f8421f973be83051aba9a0edcf
-  '@angular/core': 13.3.1_rxjs@7.5.5
-  '@angular/localize': 13.3.1_397428380317db8849d3ed49a0abb5d1
+  '@angular/compiler': 13.3.2
+  '@angular/compiler-cli': 13.3.2_1d1fb930f2a4fcb5ce3934186233662e
+  '@angular/core': 13.3.2_rxjs@7.5.5
+  '@angular/localize': 13.3.2_f6d19266fbe30863ae0be5a0f3ea9f7c
   '@rollup/plugin-babel': 5.3.1_rollup@2.70.1
   concurrently: 7.1.0
   husky: 7.0.4
@@ -53,15 +53,15 @@ packages:
       '@jridgewell/trace-mapping': 0.3.4
     dev: true
 
-  /@angular/compiler-cli/13.3.1_1f55b3f8421f973be83051aba9a0edcf:
-    resolution: {integrity: sha512-dImxLUITNwODlXaLcEACw10bxTiajWEQz3sLwhT/936UH+MNtM/RyLJ0M7xDvILDqq77W3psK5/M6F3M1mUpew==}
+  /@angular/compiler-cli/13.3.2_1d1fb930f2a4fcb5ce3934186233662e:
+    resolution: {integrity: sha512-w7mUTKatzTZSX57IHZ3725wXRrA2cRXwRWWfKvnglTP4XJXbcgBNeDKkJLSPwRS2Hll9eqVrwEINd+cBc/zlDA==}
     engines: {node: ^12.20.0 || ^14.15.0 || >=16.10.0}
     hasBin: true
     peerDependencies:
-      '@angular/compiler': 13.3.1
+      '@angular/compiler': 13.3.2
       typescript: '>=4.4.2 <4.7'
     dependencies:
-      '@angular/compiler': 13.3.1
+      '@angular/compiler': 13.3.2
       '@babel/core': 7.17.8
       chokidar: 3.5.3
       convert-source-map: 1.8.0
@@ -77,15 +77,15 @@ packages:
       - supports-color
     dev: true
 
-  /@angular/compiler/13.3.1:
-    resolution: {integrity: sha512-ppJURRRDPZB6UaZctH6yBsznZXB7wZdCpfy5yo4lFE4k8rygfV80TmnrbJBZXNNq057VK48Bap1tsehFwckjog==}
+  /@angular/compiler/13.3.2:
+    resolution: {integrity: sha512-alYHf6D/ckSYbMLiaAPKnT0/1Xt9ZzGL8uo6XugjPPHI3AFNPBU2/1u3HjbIZCBpssmIjT8MQ63yIN1F6mqnJg==}
     engines: {node: ^12.20.0 || ^14.15.0 || >=16.10.0}
     dependencies:
       tslib: 2.3.1
     dev: true
 
-  /@angular/core/13.3.1_rxjs@7.5.5:
-    resolution: {integrity: sha512-ZU/B9jEiZ0jadRkRL9Sb2btzqgQ0ylx380PfRQaojVIsij/EO6+jOSHIo5upMIGu/OvkggfweShJGlylCOrOXA==}
+  /@angular/core/13.3.2_rxjs@7.5.5:
+    resolution: {integrity: sha512-e+3eyV1AaiiP/3L82BKi5WowAYzsOmSfzYdT4utQScuTjbtNhIo4NvlpSRwk51QRYR9XsqinHO3SfEX2eMPSGA==}
     engines: {node: ^12.20.0 || ^14.15.0 || >=16.10.0}
     peerDependencies:
       rxjs: ^6.5.3 || ^7.4.0
@@ -95,16 +95,16 @@ packages:
       tslib: 2.3.1
     dev: true
 
-  /@angular/localize/13.3.1_397428380317db8849d3ed49a0abb5d1:
-    resolution: {integrity: sha512-1s51ufL28EZuDQJ6+dHvLA9yyR8O9dpqS1PFrtNo9OcD62/JiDI8CHQlAdk2kmU5eTmulDf39sSLbOsDUGPGuQ==}
+  /@angular/localize/13.3.2_f6d19266fbe30863ae0be5a0f3ea9f7c:
+    resolution: {integrity: sha512-xJkJ/565SvRtc+iqwueEMe+lJjPd3ywDMez4z1zwtKf7+YKW+QMacru3tL81LPpoPq/ugY/kjsTilPAsMvxjlQ==}
     engines: {node: ^12.20.0 || ^14.15.0 || >=16.10.0}
     hasBin: true
     peerDependencies:
-      '@angular/compiler': 13.3.1
-      '@angular/compiler-cli': 13.3.1
+      '@angular/compiler': 13.3.2
+      '@angular/compiler-cli': 13.3.2
     dependencies:
-      '@angular/compiler': 13.3.1
-      '@angular/compiler-cli': 13.3.1_1f55b3f8421f973be83051aba9a0edcf
+      '@angular/compiler': 13.3.2
+      '@angular/compiler-cli': 13.3.2_1d1fb930f2a4fcb5ce3934186233662e
       '@babel/core': 7.17.2
       glob: 7.2.0
       yargs: 17.4.0
@@ -145,7 +145,7 @@ packages:
       '@babel/traverse': 7.17.3
       '@babel/types': 7.17.0
       convert-source-map: 1.8.0
-      debug: 4.3.3
+      debug: 4.3.4
       gensync: 1.0.0-beta.2
       json5: 2.2.1
       semver: 6.3.0
@@ -168,7 +168,7 @@ packages:
       '@babel/traverse': 7.17.3
       '@babel/types': 7.17.0
       convert-source-map: 1.8.0
-      debug: 4.3.3
+      debug: 4.3.4
       gensync: 1.0.0-beta.2
       json5: 2.2.1
       semver: 6.3.0
@@ -633,11 +633,6 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /ansi-regex/5.0.0:
-    resolution: {integrity: sha512-bY6fj56OUQ0hU1KjFNDQuJFezqKdrAyFdIevADiqrWHwSlbmBNMHp5ak2f40Pm8JTFyM2mqxkG6ngkHO11f/lg==}
-    engines: {node: '>=8'}
-    dev: true
-
   /ansi-regex/5.0.1:
     resolution: {integrity: sha512-quJQXlTSUGL2LH9SUXo8VwsY4soanhgo6LNSm84E1LBcE8s3O0wpdiRzyR9z/ZZJMlMWv37qOOb9pdJlMUEKFQ==}
     engines: {node: '>=8'}
@@ -920,7 +915,7 @@ packages:
     resolution: {integrity: sha512-OcRE68cOsVMXp1Yvonl/fzkQOyjLSu/8bhPDfQt0e0/Eb283TKP20Fs2MqoPsr9SwA595rRCA+QMzYc9nBP+JQ==}
     dependencies:
       string-width: 4.2.3
-      strip-ansi: 6.0.0
+      strip-ansi: 6.0.1
       wrap-ansi: 7.0.0
     dev: true
 
@@ -1079,18 +1074,6 @@ packages:
     resolution: {integrity: sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA==}
     dependencies:
       ms: 2.0.0
-    dev: true
-
-  /debug/4.3.3:
-    resolution: {integrity: sha512-/zxw5+vh1Tfv+4Qn7a5nsbcJKPaSvCDhojn6FEl9vupwK2VCSDtEiEtqr8DFtzYFOdz63LBkxec7DYuc2jon6Q==}
-    engines: {node: '>=6.0'}
-    peerDependencies:
-      supports-color: '*'
-    peerDependenciesMeta:
-      supports-color:
-        optional: true
-    dependencies:
-      ms: 2.1.2
     dev: true
 
   /debug/4.3.4:
@@ -2881,13 +2864,6 @@ packages:
       ansi-regex: 4.1.0
     dev: true
 
-  /strip-ansi/6.0.0:
-    resolution: {integrity: sha512-AuvKTrTfQNYNIctbR1K/YGTR1756GycPsg7b9bdV9Duqur4gv6aKqHXah67Z8ImS7WEz5QVcOtlfW2rZEugt6w==}
-    engines: {node: '>=8'}
-    dependencies:
-      ansi-regex: 5.0.0
-    dev: true
-
   /strip-ansi/6.0.1:
     resolution: {integrity: sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A==}
     engines: {node: '>=8'}
@@ -3146,7 +3122,7 @@ packages:
     dependencies:
       ansi-styles: 4.3.0
       string-width: 4.2.3
-      strip-ansi: 6.0.0
+      strip-ansi: 6.0.1
     dev: true
 
   /wrappy/1.0.2:
