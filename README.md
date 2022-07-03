@@ -1,4 +1,4 @@
-# autopublish-template
+# angular-localize
 
 [![npm version](https://img.shields.io/npm/v/@esm-bundle/autopublish-template.svg?style=flat)](https://www.npmjs.com/package/@esm-bundle/autopublish-template) [![build status](https://travis-ci.com/esm-bundle/autopublish-template.svg?branch=master)](https://travis-ci.com/esm-bundle/autopublish-template) [![](https://data.jsdelivr.com/v1/package/npm/@esm-bundle/autopublish-template/badge)](https://www.jsdelivr.com/package/npm/@esm-bundle/autopublish-template)
 
