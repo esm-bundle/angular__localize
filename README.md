@@ -71,11 +71,11 @@ If you need an es5 build, non-ivy build, or a build for a different version of A
 ## Npm
 
 ```sh
-npm install --save autopublish-template@npm:@esm-bundle/autopublish-template
+npm install --save angular__localize@npm:@esm-bundle/angular__localize
 ```
 
 ## Yarn
 
 ```sh
-yarn add autopublish-template@npm:@esm-bundle/autopublish-template
+yarn add angular__localize@npm:@esm-bundle/angular__localize
 ```
