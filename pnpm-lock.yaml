@@ -5,7 +5,7 @@ specifiers:
   '@angular/compiler-cli': 15.0.1
   '@angular/core': 15.0.1
   '@angular/localize': 15.0.1
-  '@rollup/plugin-babel': 6.0.2
+  '@rollup/plugin-babel': 6.0.3
   concurrently: 7.6.0
   husky: 8.0.2
   karma: 6.4.1
@@ -27,7 +27,7 @@ devDependencies:
   '@angular/compiler-cli': 15.0.1_zjq4wvcetch5ercucco2lytmai
   '@angular/core': 15.0.1_rxjs@7.5.7
   '@angular/localize': 15.0.1_3symhbmsnxesw5pj466ix4lzri
-  '@rollup/plugin-babel': 6.0.2_rollup@2.79.1
+  '@rollup/plugin-babel': 6.0.3_rollup@2.79.1
   concurrently: 7.6.0
   husky: 8.0.2
   karma: 6.4.1
@@ -205,7 +205,7 @@ packages:
     resolution: {integrity: sha512-0NFvs3VkuSYbFi1x2Vd6tKrywq+z/cLeYC/RJNFrIX/30Bf5aiGYbtvGXolEktzJH8o5E5KJ3tT+nkxuuZFVlA==}
     engines: {node: '>=6.9.0'}
     dependencies:
-      '@babel/types': 7.18.7
+      '@babel/types': 7.20.2
     dev: true
 
   /@babel/helper-module-transforms/7.20.2:
@@ -306,14 +306,6 @@ packages:
       globals: 11.12.0
     transitivePeerDependencies:
       - supports-color
-    dev: true
-
-  /@babel/types/7.18.7:
-    resolution: {integrity: sha512-QG3yxTcTIBoAcQmkCs+wAPYZhu7Dk9rXKacINfNbdJDNERTbLQbHGyVG8q/YGMPeCJRIhSY0+fTc5+xuh6WPSQ==}
-    engines: {node: '>=6.9.0'}
-    dependencies:
-      '@babel/helper-validator-identifier': 7.19.1
-      to-fast-properties: 2.0.0
     dev: true
 
   /@babel/types/7.20.2:
@@ -526,8 +518,8 @@ packages:
       config-chain: 1.1.13
     dev: true
 
-  /@rollup/plugin-babel/6.0.2_rollup@2.79.1:
-    resolution: {integrity: sha512-Vnt8XIWYwCf3MD7qhBWYlP9pjSZvcE++nlPXhQYw6YNehl5742AzFbrV6h4BHb20VAOVUlIksVLymQCTwVCGDg==}
+  /@rollup/plugin-babel/6.0.3_rollup@2.79.1:
+    resolution: {integrity: sha512-fKImZKppa1A/gX73eg4JGo+8kQr/q1HBQaCGKECZ0v4YBBv3lFqi14+7xyApECzvkLTHCifx+7ntcrvtBIRcpg==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       '@babel/core': ^7.0.0
