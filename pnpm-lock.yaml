@@ -1,10 +1,10 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@angular/compiler': 15.1.0
-  '@angular/compiler-cli': 15.1.0
-  '@angular/core': 15.1.0
-  '@angular/localize': 15.1.0
+  '@angular/compiler': 15.1.1
+  '@angular/compiler-cli': 15.1.1
+  '@angular/core': 15.1.1
+  '@angular/localize': 15.1.1
   '@rollup/plugin-babel': 6.0.3
   concurrently: 7.6.0
   husky: 8.0.3
@@ -23,10 +23,10 @@ specifiers:
   typescript: 4.9.4
 
 devDependencies:
-  '@angular/compiler': 15.1.0_@angular+core@15.1.0
-  '@angular/compiler-cli': 15.1.0_cw5pxmpaualxc53b5r24ke3psi
-  '@angular/core': 15.1.0_rxjs@7.8.0
-  '@angular/localize': 15.1.0_fchwuune66yenfb7lu6fwg7hzu
+  '@angular/compiler': 15.1.1_@angular+core@15.1.1
+  '@angular/compiler-cli': 15.1.1_6cdwpve3qxqoyywhwxcsrh7cpq
+  '@angular/core': 15.1.1_rxjs@7.8.0
+  '@angular/localize': 15.1.1_ighj4tgoaskmm4typzz2vui63i
   '@rollup/plugin-babel': 6.0.3_rollup@2.79.1
   concurrently: 7.6.0
   husky: 8.0.3
@@ -53,15 +53,15 @@ packages:
       '@jridgewell/trace-mapping': 0.3.14
     dev: true
 
-  /@angular/compiler-cli/15.1.0_cw5pxmpaualxc53b5r24ke3psi:
-    resolution: {integrity: sha512-mKeXolM/plP9ebkHy3YGxHx0Yg63d09S0QCpdIcmvrbJpaPeM2D1SAkbDpO46T4BsfgfWHtSYByb5JcesrYrpQ==}
+  /@angular/compiler-cli/15.1.1_6cdwpve3qxqoyywhwxcsrh7cpq:
+    resolution: {integrity: sha512-sBYvh6Y08aKuZPAVwzT1YGVfG63xeXElEfAfq6No9FLUHDo83QB9fU7ovXnu1RJFJiVIy16DHjmTpAmgvlomGA==}
     engines: {node: ^14.20.0 || ^16.13.0 || >=18.10.0}
     hasBin: true
     peerDependencies:
-      '@angular/compiler': 15.1.0
+      '@angular/compiler': 15.1.1
       typescript: '>=4.8.2 <5.0'
     dependencies:
-      '@angular/compiler': 15.1.0_@angular+core@15.1.0
+      '@angular/compiler': 15.1.1_@angular+core@15.1.1
       '@babel/core': 7.19.3
       '@jridgewell/sourcemap-codec': 1.4.14
       chokidar: 3.5.3
@@ -77,21 +77,21 @@ packages:
       - supports-color
     dev: true
 
-  /@angular/compiler/15.1.0_@angular+core@15.1.0:
-    resolution: {integrity: sha512-+ky5Cvgps725Q/KdgsYzi/fe9LbT5ujhZoT9N5k+tYTJsepMUrpExFwMFkWrdMUYTK7DaxC9ufjZ4WZmHVhFoA==}
+  /@angular/compiler/15.1.1_@angular+core@15.1.1:
+    resolution: {integrity: sha512-A35iXLTTDEej4F2tm5t1flA+5Tv+jYAkQx+d0xvH6LDiWvsiDsOe5OjP8L2LD8dejwWl/JYUz2TH0JZcvw0uqA==}
     engines: {node: ^14.20.0 || ^16.13.0 || >=18.10.0}
     peerDependencies:
-      '@angular/core': 15.1.0
+      '@angular/core': 15.1.1
     peerDependenciesMeta:
       '@angular/core':
         optional: true
     dependencies:
-      '@angular/core': 15.1.0_rxjs@7.8.0
+      '@angular/core': 15.1.1_rxjs@7.8.0
       tslib: 2.3.1
     dev: true
 
-  /@angular/core/15.1.0_rxjs@7.8.0:
-    resolution: {integrity: sha512-HiwctuR73MuLoLeP35j9xF8/SIg7ELx+iHZtp/TBfoH+LOmjWbdrAdVAPTbqnxvK0aJG+527dhgC6tBOXgBTcg==}
+  /@angular/core/15.1.1_rxjs@7.8.0:
+    resolution: {integrity: sha512-nsz+IXdkQanAGhqA2vcwTrGGyw5zIm3TgtYQ/JqK185qkmlhsQfSRvdSPsFPhmIFYp9ngZVUbkhY3D4P3gDzIg==}
     engines: {node: ^14.20.0 || ^16.13.0 || >=18.10.0}
     peerDependencies:
       rxjs: ^6.5.3 || ^7.4.0
@@ -101,18 +101,18 @@ packages:
       tslib: 2.3.1
     dev: true
 
-  /@angular/localize/15.1.0_fchwuune66yenfb7lu6fwg7hzu:
-    resolution: {integrity: sha512-BTEBMKqS4F8lK4rIsydRsxMbQ1hFnDZTZoifT33dmmOworWFJCGryYw0ZCTkeBtCnkRGgnr1aOTIHTvJPFIMiA==}
+  /@angular/localize/15.1.1_ighj4tgoaskmm4typzz2vui63i:
+    resolution: {integrity: sha512-gOFVOq3yBx5/Ng/Og9Hy+DDM2SugrUFAqf2KYR/Qvrp3e6lRU6ScFzJbk4NKPttwV77H3eYoKrfdJXMLpTib7g==}
     engines: {node: ^14.20.0 || ^16.13.0 || >=18.10.0}
     hasBin: true
     peerDependencies:
-      '@angular/compiler': 15.1.0
-      '@angular/compiler-cli': 15.1.0
+      '@angular/compiler': 15.1.1
+      '@angular/compiler-cli': 15.1.1
     dependencies:
-      '@angular/compiler': 15.1.0_@angular+core@15.1.0
-      '@angular/compiler-cli': 15.1.0_cw5pxmpaualxc53b5r24ke3psi
+      '@angular/compiler': 15.1.1_@angular+core@15.1.1
+      '@angular/compiler-cli': 15.1.1_6cdwpve3qxqoyywhwxcsrh7cpq
       '@babel/core': 7.19.3
-      glob: 8.0.3
+      glob: 8.1.0
       yargs: 17.4.0
     transitivePeerDependencies:
       - supports-color
@@ -1699,8 +1699,8 @@ packages:
       path-is-absolute: 1.0.1
     dev: true
 
-  /glob/8.0.3:
-    resolution: {integrity: sha512-ull455NHSHI/Y1FqGaaYFaLGkNMMJbavMrEGFXG/PGrg6y7sutWHUHrz6gy6WEBH6akM1M414dWKCNs+IhKdiQ==}
+  /glob/8.1.0:
+    resolution: {integrity: sha512-r8hpEjiQEYlF2QU0df3dS+nxxSIreXQS1qRhMJM0Q5NDdR386C7jb7Hwwod8Fgiuex+k0GFjgft18yvxm5XoCQ==}
     engines: {node: '>=12'}
     dependencies:
       fs.realpath: 1.0.0
