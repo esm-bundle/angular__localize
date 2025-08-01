@@ -20,11 +20,11 @@ specifiers:
   rollup: 2.79.2
   rollup-plugin-terser: 7.0.2
   rxjs: 7.8.2
-  typescript: 5.8.3
+  typescript: 5.9.2
 
 devDependencies:
   '@angular/compiler': 15.2.10_@angular+core@15.2.10
-  '@angular/compiler-cli': 15.2.10_vbphlmg7zy7ien3nv6rknpzlti
+  '@angular/compiler-cli': 15.2.10_mpijnsebe5lxw5wuomudq6hw7y
   '@angular/core': 15.2.10_rxjs@7.8.2
   '@angular/localize': 15.2.10_44at6iqej4zyenb5l3jrpmvgyi
   '@rollup/plugin-babel': 6.0.4_rollup@2.79.2
@@ -42,7 +42,7 @@ devDependencies:
   rollup: 2.79.2
   rollup-plugin-terser: 7.0.2_rollup@2.79.2
   rxjs: 7.8.2
-  typescript: 5.8.3
+  typescript: 5.9.2
 
 packages:
 
@@ -53,7 +53,7 @@ packages:
       '@jridgewell/trace-mapping': 0.3.14
     dev: true
 
-  /@angular/compiler-cli/15.2.10_vbphlmg7zy7ien3nv6rknpzlti:
+  /@angular/compiler-cli/15.2.10_mpijnsebe5lxw5wuomudq6hw7y:
     resolution: {integrity: sha512-mCFIxrs60XicKfA2o42hA7LrQvhybi9BQveWuZn/2iIEOXx7R62Iemz8E21pLWftAZHGxEW3NECfBrY1d3gVmA==}
     engines: {node: ^14.20.0 || ^16.13.0 || >=18.10.0}
     hasBin: true
@@ -71,7 +71,7 @@ packages:
       reflect-metadata: 0.1.13
       semver: 7.5.4
       tslib: 2.3.1
-      typescript: 5.8.3
+      typescript: 5.9.2
       yargs: 17.7.2
     transitivePeerDependencies:
       - supports-color
@@ -110,7 +110,7 @@ packages:
       '@angular/compiler-cli': 15.2.10
     dependencies:
       '@angular/compiler': 15.2.10_@angular+core@15.2.10
-      '@angular/compiler-cli': 15.2.10_vbphlmg7zy7ien3nv6rknpzlti
+      '@angular/compiler-cli': 15.2.10_mpijnsebe5lxw5wuomudq6hw7y
       '@babel/core': 7.19.3
       glob: 8.1.0
       yargs: 17.7.2
@@ -2965,8 +2965,8 @@ packages:
       mime-types: 2.1.35
     dev: true
 
-  /typescript/5.8.3:
-    resolution: {integrity: sha512-p1diW6TqL9L07nNxvRMM7hMMw4c5XOo/1ibL4aAIGmSAt9slTE1Xgw5KWuof2uTOvCg9BY7ZRi+GaF+7sfgPeQ==}
+  /typescript/5.9.2:
+    resolution: {integrity: sha512-CWBzXQrc/qOkhidw1OzBTQuYRbfyxDXJMVJ1XNwUHGROVmuaeiEm3OslpZ1RV96d7SKKjZKrSJu3+t/xlw3R9A==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true
